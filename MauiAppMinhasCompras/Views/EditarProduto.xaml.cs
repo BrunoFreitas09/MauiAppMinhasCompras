@@ -1,5 +1,4 @@
 using MauiAppMinhasCompras.Models; // Importa o namespace que contém o modelo "Produto"
-using WebKit; // Parece não ser necessário neste contexto (provavelmente um import desnecessário)
 
 namespace MauiAppMinhasCompras.Views;
 

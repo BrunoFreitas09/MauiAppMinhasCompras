@@ -1,7 +1,5 @@
-using MauiAppMinhasCompras.Models;
 using System.Collections.ObjectModel;
-using UIKit; // Parece não ser necessário no contexto do MAUI e pode ser removido.
-using WebKit; // Importação provavelmente desnecessária, pode ser removida.
+using MauiAppMinhasCompras.Models;
 
 namespace MauiAppMinhasCompras.Views;
 
@@ -105,3 +103,11 @@ public partial class ListaProduto : ContentPage
         catch (Exception ex)
         {
             await DisplayAlert("Ops", ex.Message, "OK"); //
+        }
+    }
+
+    private void lst_produtos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+
+    }
+}
